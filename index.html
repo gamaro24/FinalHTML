@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel</title>
+
+    <style>
+        /* Add a black background color to the top navigation */
+        .topnav {
+            background-color: #333;
+            overflow: hidden;
+            
+        }
+
+        /* Style the links inside the navigation bar */
+        .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            
+        }
+
+        /* Change the color of links on hover */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Add a color to the active/current link */
+        .topnav a.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        
+        body {
+            margin: 0px;
+        }
+        #main-image {
+            width: 100%;
+            height: 600px;
+        }
+        .main-footer {
+            background-color: #4CAF50;
+        }
+        h1 {
+            text-align: center;
+        }
+        .travel-item {
+            width: 500px;
+            height: 500px;
+            
+        }
+
+        table {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        td {
+            padding: 20px;
+        }
+
+        .card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+        }
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+        }
+        h4  {
+            text-align: center;
+        }
+    </style>
+    </head>
+
+<body>
+    <nav style="position: fixed; width: 100%;">
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+        </div>
+    </nav>
+    <div>
+        <img id="main-image" src="/assets/img/travel.jpg" alt="">
+    </div>
+    <div>
+        <h1>My travel diary</h1>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <td>
+                    <div class="card">
+                        <a href="isla.html">
+                            <img class="travel-item" src="/assets/img/isla.jpg">
+                        </a>
+                        <div class="container">
+                            <h4><b>Isla de pascua</b></h4>
+                      </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="card">
+                        <a href="machu.html">
+                            <img class="travel-item" src="/assets/img/machu.jpg" alt="">
+                        </a>
+                        <div class="container">
+                            <h4><b>Machu Pichu</b></h4>
+                      </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="card">
+                        <a href="venecia.html">
+                            <img class="travel-item" src="/assets/img/venecia.jpg" alt="">
+                        </a>
+                        <div class="container">
+                            <h4><b>Venecia</b></h4>
+                      </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="card">
+                        <a href="newyork.html">
+                            <img class="travel-item" src="/assets/img/newyork.jpg">
+                        </a>
+                        <div class="container">
+                            <h4><b>New York</b></h4>
+                      </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="card">
+                        <a href="jesus.html">
+                            <img class="travel-item" src="/assets/img/jesus.jpg" alt="">
+                        </a>
+                        <div class="container">
+                            <h4><b>Jesus Redentor</b></h4>
+                      </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="card">
+                        <a href="stone.html">
+                            <img class="travel-item" src="/assets/img/stone.jpg" alt="">
+                        </a>
+                        <div class="container">
+                            <h4><b>Stonehenge</b></h4>
+                      </div>
+                    </div>
+                </td>
+
+        </table>
+
+
+    <footer class="main-footer">
+        <div>
+            By Gaston
+        </div>
+        
+    </footer>
+</body>
+
+</html>
